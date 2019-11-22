@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "amplifyJSapp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}

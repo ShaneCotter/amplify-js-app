@@ -1,0 +1,18 @@
+{
+	"api": {
+		"amplifyJSapp": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY"
+			}
+		}
+	},
+	"auth": {
+		"amplifyjsapp70ff3d4e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
